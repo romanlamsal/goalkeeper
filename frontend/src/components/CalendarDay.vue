@@ -62,7 +62,7 @@ const classlist = computed(() => {
     classes.push("cursor-pointer")
 
   if (isToday.value)
-    classes.push("border-white")
+    classes.push("!border-2 !border-white")
 
   return classes
 })
