@@ -17,8 +17,7 @@
     "src/**/*.ts",
     "src/**/*.d.ts",
     "src/**/*.tsx",
-    "src/**/*.vue",
-    "node_modules/vue/macros-global.d.ts"
+    "src/**/*.vue"
   ],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

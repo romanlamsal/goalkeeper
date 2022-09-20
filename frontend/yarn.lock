@@ -236,7 +236,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@vue/devtools-api@npm:^6.2.1":
+"@vue/devtools-api@npm:^6.1.4, @vue/devtools-api@npm:^6.2.1":
   version: 6.2.1
   resolution: "@vue/devtools-api@npm:6.2.1"
   checksum: 34765af0be9b0cc7e3def73b2792b1514e3c348852c5a7503fe07d013f0e907af6c27c0a32c0637dd748caf37c075af8e53ca3220433e0bd34b6f3405f358272
@@ -2079,6 +2079,7 @@ __metadata:
     typescript: ^4.6.4
     vite: ^3.1.0
     vue: ^3.2.37
+    vue-router: ^4.1.5
     vue-tsc: ^0.40.4
   languageName: unknown
   linkType: soft
@@ -2187,6 +2188,17 @@ __metadata:
     vue-demi-fix: bin/vue-demi-fix.js
     vue-demi-switch: bin/vue-demi-switch.js
   checksum: 0fbe9bf8ab7fe498ffa2bbd0cfc8f6f43a6bbaa5eda3e20ef1b70dca7c8b0ddb216a7ff2f632b694fe0735805638975abb441c621ec0bd2e6d4656353f316c15
+  languageName: node
+  linkType: hard
+
+"vue-router@npm:^4.1.5":
+  version: 4.1.5
+  resolution: "vue-router@npm:4.1.5"
+  dependencies:
+    "@vue/devtools-api": ^6.1.4
+  peerDependencies:
+    vue: ^3.2.0
+  checksum: cafa2f4e14188bca0d4d45e05a901b6ff7bb3933010a6b2c9372bed7fa872bb2e18f1f033b23f540d3a75e1ecd6840b79a5ba5a714de01942d02e1e6cce88dec
   languageName: node
   linkType: hard
 
